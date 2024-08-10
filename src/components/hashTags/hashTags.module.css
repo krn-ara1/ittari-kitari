@@ -1,0 +1,35 @@
+.hashTagsContainer {
+  margin-top: var(--s);
+  display: flex;
+  gap: 0 calc(0.8rem * 3);
+  flex-wrap: nowrap;
+  animation: slideSample 40s linear infinite;
+}
+@keyframes slideSample {
+  0% {
+    transform: translateX(0%)
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .hashTagsContainer {
+    animation: slideSample 20s linear infinite;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hashTagsContainer {
+    animation: slideSample 15s linear infinite;
+  }
+}
+@media screen and (max-width: 500px) {
+  .hashTagsContainer {
+    animation: slideSample 10s linear infinite;
+  }
+}
+@media screen and (max-width: 412px) {
+  .hashTagsContainer {
+    animation: slideSample 8s linear infinite;
+  }
+}

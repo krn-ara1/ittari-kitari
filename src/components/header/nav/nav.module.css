@@ -1,0 +1,16 @@
+.navContainer {
+  display: flex;
+}
+.navHead {
+  display: none;
+}
+.navBody {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+@media screen and (max-width: 810px) {
+  .navContainer {
+    display: none;
+  }
+}

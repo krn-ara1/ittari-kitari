@@ -1,0 +1,12 @@
+.navContainer {
+  display: flex;
+}
+.navHead {
+  display: none;
+}
+.navBody {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem;
+}

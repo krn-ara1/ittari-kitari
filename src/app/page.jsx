@@ -1,7 +1,12 @@
+import HashTags from "@/components/hashTags/HashTags";
 import styles from "./home.module.css";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <HashTags />
+    </>
+  );
 };
 
 export default Home;

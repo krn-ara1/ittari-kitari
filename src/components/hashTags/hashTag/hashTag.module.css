@@ -1,0 +1,13 @@
+.hashTagContainer {
+  display: flex;
+  align-items: center;
+  gap: calc(0.8rem * 0.2);
+}
+.hashTagContainer:hover,
+.hashTagContainer:focus {
+  text-decoration: underline;
+}
+.hashTagText {
+}
+.hashTagEmoji {
+}
