@@ -1,0 +1,30 @@
+.snsContainer {
+  color: var(--bg);
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+  gap: calc(0.8rem * 0.2);
+  border-radius: 99999px;
+  padding: 0 calc(0.8rem * 0.8);
+  filter: grayscale(1);
+  transition: filter 0.4s;
+}
+.snsContainer:hover,
+.snsContainer:focus {
+  filter: grayscale(0);
+  transition: filter 0.2s;
+}
+.snsIcon {
+  width: calc(0.8rem + 0.8rem * 0.2 * 2);
+  height: calc(0.8rem + 0.8rem * 0.2 * 2);
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.snsIconImage {
+  width: 80%;
+  height: auto;
+}
+.snsText {
+}
